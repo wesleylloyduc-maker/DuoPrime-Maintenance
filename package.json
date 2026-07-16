@@ -1,0 +1,37 @@
+{
+  "name": "duoprime-maintenance",
+  "version": "1.0.0",
+  "description": "Professional property maintenance website for DuoPrime Maintenance - Manchester, UK",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build process not required for static site'",
+    "deploy": "git push origin main"
+  },
+  "keywords": [
+    "property maintenance",
+    "Manchester",
+    "repairs",
+    "painting",
+    "pressure washing",
+    "website"
+  ],
+  "author": "Wesley Lloyd",
+  "email": "wesleylloyduc@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleylloyduc-maker/DuoPrime-Maintenance.git"
+  },
+  "homepage": "https://www.duoprime247.co.uk",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "fontawesome": "^6.4.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
