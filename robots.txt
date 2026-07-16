@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+Sitemap: https://www.duoprime247.co.uk/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Request rate
+Request-rate: 1/10s
+
+# Comment: Allow Google to index images
+User-agent: Googlebot-Image
+Allow: /assets/
